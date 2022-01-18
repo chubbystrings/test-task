@@ -1,0 +1,7 @@
+export const OPEN_MODAL = 'OPEN_MODAL'
+export const CLOSE_MODAL = 'CLOSE_MODAL'
+export const SEARCHING = "SEARCHING"
+export const STOP_SEARCHING = "STOP_SEARCHING"
+export const SEARCH = "SEARCH"
+export const LOAD_IMAGES = "LOAD_IMAGES"
+export const REMOVE_SEARCH_TERM = "REMOVE_SEARCH_TERM"
