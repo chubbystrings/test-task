@@ -77,7 +77,7 @@ export default defineComponent({
     };
 
     watch(searchTerm, () => {
-      console.log(init + "here");
+      
       if (init === "") {
         dispatch(searching());
         replaceUrl();

@@ -67,12 +67,12 @@ export const useReducer = () => {
     const { getImages } = useGetImages();
 
     const results = await getImages("");
-    console.log(results)
+    
     initialState.images = results;
   }
 
   const handleSearch = async (searchTerm: string) => {
-    console.log(searchTerm)
+    
     const { getImages } = useGetImages();
 
     const results = await getImages(searchTerm);
